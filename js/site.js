@@ -8,7 +8,7 @@
 
   document.getElementById("site-header").innerHTML =
     '<a class="skip" href="#main">Skip to content</a>' +
-    '<div class="bar"><a class="brand" href="index.html"><img class="brand-mark" src="assets/logo-mono.svg" alt="" width="30" height="46"><span class="brand-text">' + esc(S.name) + '<span class="brand-by">by ' + esc(S.owner.name) + '</span></span></a>' +
+    '<div class="bar"><a class="brand" href="index.html"><span class="brand-text">' + esc(S.name) + '<span class="brand-by">by ' + esc(S.owner.name) + '</span></span></a>' +
     '<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>' +
     '<nav id="nav" aria-label="Main">' + nav.map(function(n){
       return '<a href="'+n[0]+'"'+(n[0].indexOf(page)===0?' aria-current="page"':'')+'>'+n[1]+'</a>';
@@ -19,7 +19,7 @@
   document.getElementById("site-footer").innerHTML =
     '<p><strong>' + esc(S.name) + '</strong> · ' + esc(S.owner.name) + ', ' + esc(S.owner.role.toLowerCase()) + ' · ' + (S.location.city ? esc(S.location.city) : tbc) + '</p>' +
     '<p><a href="'+S.bookingUrl+'">Book an appointment</a> <a class="old-site" href="'+S.oldSiteUrl+'" target="_blank" rel="noopener">Old website <span aria-hidden="true">\u2197</span></a></p>' +
-    '<p class="fine">Still-life pictures of salon tools and products (shears, mirrors, clippers, hair wefts) are AI-generated brand art, not photos of the salon. Hair photos are Brandie\u2019s own work.</p>';
+    '<p class="fine">Hair photos are Brandie\u2019s own work.</p>';
 
   // the bar stays pinned; it gets slimmer once the page is scrolled
   var bar = document.querySelector(".bar");
