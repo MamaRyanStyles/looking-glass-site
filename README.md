@@ -35,7 +35,7 @@ Earthy palette: warm cream and pale wood, sage and moss greens, muted brass trim
 3. Tags become the filter chips on the Gallery page. Entries with `src: null` show a "Photo coming soon" tile.
 Only publish photos the owner approved and the client agreed to share.
 
-## Photos and videos (from the owner's "mama ryan" folder)
+## Photos and videos (from the owner's photo folder)
 - Gallery photos: `assets/gallery/ryan-NN.jpg` (1400px) with `ryan-NN-t.jpg` thumbnails (640px). All EXIF and GPS data was removed. The owner confirmed clients agreed to have their faces shown.
 - Before/after sliders: `assets/ba/ba-01`, `ba-02` (halves of the owner's collages). Extensions story: `assets/ba/ext-1` to `ext-3`. To add a slider, copy a `<figure class="ba">` block from `gallery.html`.
 - Studio tour: `assets/studio/`. Brandie's photo: `assets/brandie.jpg`.
@@ -44,7 +44,7 @@ Only publish photos the owner approved and the client agreed to share.
 
 ## Higgsfield images (Phase 2)
 - `assets/hero/`: three of Brandie's own photos upscaled to 2K with Higgsfield (`hero-blonde`, `hero-copper`, `hero-bob`). The hair is unchanged, only sharper.
-- `assets/art/`: AI-generated still lifes of salon tools (flat lay, mirrors, swatch fan, tray, plaster wall, ribbons) made with Higgsfield `gpt_image_2_5` at 2K, high quality. Palette: sage, pale oak, brass, cream. These are brand art, **not photos of the salon**; the footer says so. Never use AI images to show hair results.
+- `assets/art/`: AI-made still lifes of salon tools. No longer used on the main pages (tray, hand mirror, flat lay and mirror wall were removed); the booking page still uses `assets/book/`. Never use AI images as photos of the salon or hair results.
 - `ribbons.jpg` and `plaster.jpg` are spare backgrounds for later.
 
 ## Phase 3: 3D hair
@@ -59,7 +59,7 @@ Only publish photos the owner approved and the client agreed to share.
 
 ## Round 5 changes
 - **Fonts:** Cormorant Garamond (headings, wordmark, signature) and Jost (everything else). Loaded from Google Fonts in each page head.
-- **Logo:** `assets/logo.svg` (brass hand mirror with an LG monogram). Also the favicon (`assets/favicon.svg`) and the header mark.
+- **Logo:** none. The header is just the salon name in text, and the favicon is a plain charcoal dot.
 - **Services:** 18 on the site (`SERVICES` in `js/content.js`). The "+ Cut/Style" prices are folded into each card's text. Add-ons live in `ADDONS` and only show in the booking Extras step. Everything removed is kept in `MORE_SERVICES`.
 - **Hair:** the cursor push is continuous and each lock follows the pointer with its own soft lag.
 - **3D tour (`js/tour3d.js`):** real window openings with the sun casting window-frame shadows across an oak floor, ACES tone mapping, environment reflections, procedural oak/plaster/rug textures, detailed chairs, mirrors, shampoo bowls, lounge and desk, fake contact shadows, soft sunbeams, and a slow film-style camera. For a photo-real version, scan the studio (Polycam or Luma) or shoot 360 photos and replace the model.

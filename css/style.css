@@ -645,3 +645,8 @@ dialog#lightbox button:not(.close){border:0;background:var(--accent)}
 .bk-lines li{border-bottom-color:var(--line)}
 .bk-day[aria-pressed="true"] small{color:#e9e6e0}
 .bk-seal{background:var(--accent)}
+
+/* Clean-up: no logo mark, fewer pictures, single-column layouts where a photo was removed */
+.about-body,.visit-body{grid-template-columns:minmax(0,1fr);max-width:760px}
+.close{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}
+.close h2,.close p{margin-inline:auto}
