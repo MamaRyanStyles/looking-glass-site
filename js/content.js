@@ -102,6 +102,6 @@ window.GALLERY = [
   { src: "assets/gallery/ryan-32.jpg", thumb: "assets/gallery/ryan-32-t.jpg", alt: "Long, smooth blonde hair with a deep side part", caption: "", tags: ["Blonde"], pos: "50% 30%" },
   { src: "assets/gallery/ryan-40.jpg", thumb: "assets/gallery/ryan-40-t.jpg", alt: "Soft, layered blonde hair with face-framing pieces", caption: "", tags: ["Blonde"], pos: "50% 30%" },
   { src: "assets/gallery/ryan-42.jpg", thumb: "assets/gallery/ryan-42-t.jpg", alt: "Back view of a textured blonde bob with bright highlights", caption: "", tags: ["Blonde", "Highlights", "Bobs"], pos: "50% 30%" },
-  { src: "assets/gallery/ryan-45.jpg", thumb: "assets/gallery/ryan-45-t.jpg", alt: "Side view of layered dark brown hair with warm, lighter ends", caption: "", tags: ["Brunette"], pos: "50% 30%" },
+  { src: "assets/gallery/ryan-43.jpg", thumb: "assets/gallery/ryan-43-t.jpg", alt: "Back view of a wavy blonde bob with soft ash and bright blonde pieces", caption: "", tags: ["Blonde", "Highlights", "Bobs"], pos: "50% 30%" },
   { src: "assets/gallery/ryan-52.jpg", thumb: "assets/gallery/ryan-52-t.jpg", alt: "Back view of long, smooth ash-brown hair after tape-in extensions", caption: "", tags: ["Extensions", "Brunette"], pos: "50% 30%" },
 ];
