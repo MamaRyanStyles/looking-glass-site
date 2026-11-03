@@ -127,7 +127,7 @@
 
   document.querySelectorAll("[data-fact]").forEach(function(e){
     var v = e.dataset.fact.split(".").reduce(function(o,k){return o && o[k];}, S);
-    e.innerHTML = v ? esc(v) : tbc;
+    e.innerHTML = v ? String(v).split("\n\n").map(function(x){ return "<p>" + esc(x) + "</p>"; }).join("") : tbc;
   });
 
 

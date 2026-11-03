@@ -650,3 +650,7 @@ dialog#lightbox button:not(.close){border:0;background:var(--accent)}
 .about-body,.visit-body{grid-template-columns:minmax(0,1fr);max-width:760px}
 .close{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}
 .close h2,.close p{margin-inline:auto}
+
+/* About: bio paragraphs */
+.fact dd p{margin:0 0 1em;font-size:1.05rem;line-height:1.7}
+.fact dd p:last-child{margin-bottom:0}
