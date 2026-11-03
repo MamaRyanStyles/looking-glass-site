@@ -15,8 +15,8 @@ window.SALON = {
   email: null,
   hours: null,
   social: { instagram: null, facebook: null },
-  // bio left empty on purpose: Brandie is writing it herself.
-  owner: { name: "Brandie Ryan", role: "Owner and stylist", bio: null },
+  // bio written by Brandie (paragraphs separated by a blank line).
+  owner: { name: "Brandie Ryan", role: "Owner and stylist", bio: "I have been behind the chair for 25 years. I got into the industry at 16, working as a receptionist at a local salon in Reston, and I fell in love with how a stylist can change someone's day by making them feel heard and seen, as well as beautiful.\n\nI trained at Graham Webb Academy and have continued my education with Vidal Sassoon, Bumble and bumble and Kevin Murphy. I stay on top of new trends, and I have the training and technical skills to get the best results.\n\nI come to every appointment with an open mind and a real sense of what that person needs, which often goes much deeper than hair. Our world can feel disconnected, and I take a lot of pride in knowing that for an hour, my client had connection along with a boost in confidence." },
   policies: { cancellation: null },
   domain: null
 };
